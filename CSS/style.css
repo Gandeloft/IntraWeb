@@ -10,6 +10,16 @@ header {
   width: 100%;
 }
 
+main {
+	z-index: 1;
+	background-image: url("images/christ.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height:100%;
+}
+
 a {
   text-decoration: none;
 }
@@ -17,9 +27,13 @@ a {
 li {
   display: inline-block;
   background-color: #0e72e4;
+  border-style: solid;
+  border-color: gray;
+
 }
 
 nav {
+	height: 10rem;
   text-align: center;
   position: fixed;
   top: 0;
@@ -32,6 +46,11 @@ li a {
   padding: 10px 10px;
 }
 
+h1 {
+	color: white;
+	background-color: black;
+}
+
 ul {
   width: 100%;
   padding: 0;
@@ -40,11 +59,24 @@ ul {
   overflow: hidden;
 }
 
-#bg-image {
-  height: 100%;
-  background-image: url("images/christ.jpg");
+p {
+	background-color: white;
+	display: inline-flex;
+}
+
+#header-wrapper {
+	background-color:black;
+}
+
+#header-bg {
+  z-index: -1;
+  height: 4rem;
+  background-image: url("images/logo.png");
   background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
   position: relative;
+}
+
+#logo-id {
+	margin:0;
 }
