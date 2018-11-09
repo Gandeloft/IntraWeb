@@ -1,82 +1,42 @@
-body,
-html {
-  font-family: "Oswald", sans-serif;
-  margin: 0;
-  font-size: 16px;
-}
-
-header {
-  display: block;
-  width: 100%;
+#nav-bg {
+	height:100%;
+	width: :50px;
+	top: 0px;
+	left: 0px;
+	background-color: blue;
 }
 
 main {
-	z-index: 1;
-	background-image: url("images/christ.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	position: relative;
-	height:100%;
+	margin: 0;
+	margin-left:20%;
+	display: inline-block;
 }
 
-a {
-  text-decoration: none;
-}
-
-li {
-  display: inline-block;
-  background-color: #0e72e4;
-  border-style: solid;
-  border-color: gray;
-
-}
-
-nav {
-	height: 10rem;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-li a {
-  list-style-type: none;
-  display: inline-block;
-  padding: 10px 10px;
-}
-
-h1 {
-	color: white;
-	background-color: black;
+body {
+	margin: 0;
 }
 
 ul {
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  list-style-type: none;
-  overflow: hidden;
-}
-
-p {
-	background-color: white;
-	display: inline-flex;
-}
-
-#header-wrapper {
-	background-color:black;
-}
-
-#header-bg {
-  z-index: -1;
-  height: 4rem;
-  background-image: url("images/logo.png");
-  background-position: center;
-  background-repeat: repeat;
-  position: relative;
-}
-
-#logo-id {
+	width:20%;
 	margin:0;
+	padding:0;
+	list-style-type: none;
+	height:100%;
+	position: fixed;
+	background-color: #f1f1f1;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+
+    padding: 8px 16px;
+}
+
+}
+
+li a:hover {
+	background-color: black;
 }
