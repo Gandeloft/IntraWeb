@@ -1,15 +1,8 @@
-#logo-in-nav {
-	margin:1rem;
-	padding:0;
-	margin-top:12px;
-	background-image: url("images/logo.png");
-	width:172px;
-	height:103px;
-}
-
 main {
 	margin: 0;
 	margin-left:12.5rem;
+	background-image: url("images/christ.jpg");
+	background-size: cover;
 }
 
 body {
@@ -24,24 +17,39 @@ ul {
 	height:100%;
 	position: fixed;
 	background-color: #f1f1f1;
+	background: darkgray;
 }
 
 a {
 	text-decoration: none;
 }
 
+.nav-bg-trigger {
+	background-color: gray;
+}
+
 li {
+	border:1px solid red;
 	text-align: center;
     padding: 8px 16px;
 }
 
+#logo-in-nav {
+	margin:1rem;
+	padding:0;
+	margin-top:12px;
+	background-image: url("images/logo.png");
+	width:172px;
+	height:103px;
+	border:0px;
 }
+
 
 li a:hover {
 	background-color: black;
 }
 
-figure {
-	padding:0;
+#logo-id {
+	padding:20px;
 	margin:0;
 }
