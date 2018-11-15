@@ -25,7 +25,7 @@ a {
 }
 
 .nav-bg-trigger {
-	background-color: gray;
+	background: linear-gradient(to bottom, #f2f5f6 0%,#c8d7dc 100%);
 }
 
 li {
