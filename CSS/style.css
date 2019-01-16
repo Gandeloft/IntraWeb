@@ -9,6 +9,10 @@ body {
 	margin: 0;
 }
 
+.news {
+	background-color: darkgray;
+}
+
 ul {
 	width:12.5rem;
 	margin:0;
@@ -18,6 +22,10 @@ ul {
 	position: fixed;
 	background-color: #f1f1f1;
 	background: darkgray;
+}
+
+.paragraph {
+	background-color: gray;
 }
 
 a {
@@ -32,6 +40,19 @@ li {
 	border:1px solid red;
 	text-align: center;
     padding: 8px 16px;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+	min-height:100%;
+	position:relative;
+	padding:10px;
+  padding-bottom:60px;
+}
+
+.footer_text {
+	color: white;
 }
 
 #logo-in-nav {
